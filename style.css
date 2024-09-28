@@ -259,13 +259,12 @@ ul {
     margin: auto;
 }
 .features-img img {
-    width: 90%;
+    width: 80%;
     border-radius: 20px;
-    border:  solid /* Adds a solid yellow border with a width of 5px */
+    border: 5px solid #000;  /* Adds a solid yellow border with a width of 5px */
     box-shadow : 0 4px 8px rgba(0, 0, 0, 0.3);  /* Adds a shadow with some blur and transparency */
     margin : 20px auto;  /* Centers the image horizontally */
     display : block;  /* Ensures proper centering */
-    align::content;
 }
 .features h1{
     text-align: left;
@@ -513,7 +512,7 @@ ul {
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 }
 .footer—left,.footer—right{
     flex-basis: 45%;
@@ -521,7 +520,7 @@ ul {
     margin-bottom: 20px;
 }
 .footer—right{
-    text-align: right;
+    text-align: center;
 }
 .footer-row h1{
     margin: 20px 0;  
@@ -742,7 +741,7 @@ ul li:hover .dropdown-content {
 .footer-left, .footer-right {
     width: 50%;
     display: inline-block;
-    text-align: left;
+    text-align: center;
     vertical-align: top;
     margin-bottom: 30px;
 }
@@ -822,7 +821,7 @@ ul li:hover .dropdown-content {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space space-around;
+    justify-content:space-around;
     margin: auto;
 }
 .single-service{
