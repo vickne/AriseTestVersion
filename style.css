@@ -573,6 +573,11 @@ ul {
   .topnav .icon {
     display: none;
   }
+.topnav a.split {
+  float: left;
+  background-color: #04AA6D;
+  color: white;
+}
   
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
