@@ -547,10 +547,10 @@ ul {
 .topnav {   
     background-color: #fff;
     height: 100px;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    /* height: 240px; */
+    height: 240px; */
     align-content: end;
   }
   
