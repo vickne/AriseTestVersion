@@ -280,37 +280,36 @@ ul {
 }
 
 /*--about Us*/
-#about-us .flex-container {
+.flex-container {
   display: flex;
   flex-wrap: wrap;
   font-size: 30px;
   text-align: center;
 }
 
-#about-us .flex-item-left {
+.flex-item-left {
   background-color: #f1f1f1;
   padding: 10px;
   flex: 40%;
 }
 
-#about-us .flex-item-right {
+.flex-item-right {
   background-color: dodgerblue;
   padding: 10px;
   flex: 60%;
 }
-#about-us .flex-item-right-one {
+.flex-item-right-one {
   background-color: dodgerblue;
   padding: 10px;
   flex: 50%;
 }
 
-#about-us .flex-item-right-two {
+.flex-item-right-two {
   background-color: dodgerblue;
   padding: 10px;
   flex: 50%;
 }
 
-/* Responsive layout - makes a one column-layout instead of a two-column layout */
 @media (max-width: 800px) {
   .flex-item-right, .flex-item-left {
     flex: 100%;
