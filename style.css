@@ -90,12 +90,13 @@
     width: 100%; /* Expands the background to cover the entire button on hover */
 }
 .slide-button
-    position: absolute;
+    position: relative;
     color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     border: azure;
+    z-index:-1;
 }
 ul {
     list-style-type: none;
