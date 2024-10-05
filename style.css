@@ -430,7 +430,8 @@ ul {
   font-size: 16px;
   padding: 10px 14px;
   position: absolute;
-  top: 10px;
+  top: 165px;
+  left:25%;
   width: 100%;
   text-align: left;
 }
@@ -444,8 +445,13 @@ ul {
   bottom: 0;
 }
 .info a{
+	color:#000;
 	border:3px solid #000000;
 	padding:20px;
+}
+info a:hover{
+	background-color:#ed1b24;
+	color:#fff;
 }
 /* The circles or bullets indicators */
 .dots {
@@ -568,7 +574,7 @@ ul {
   .topnav a {
     float: left;
     display: block;
-    color: #a70511;
+    color: #ed1b24;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -576,7 +582,7 @@ ul {
   }
   
   .topnav a:hover,.topnav a.active {
-    background-color: #a70511;
+    background-color: #ed1b24;
     color: white;
     border-radius: 30px;
   }
@@ -621,7 +627,7 @@ ul {
     font-size: 16px;  
     border: none;
     outline: none;
-    color: #a70511;
+    color: #ed1b24;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -630,7 +636,7 @@ ul {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #ed1b24;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -646,7 +652,7 @@ ul {
   }
   
   .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #ed1b24;
   }
   
   .dropdown:hover .dropdown-content {
@@ -678,13 +684,13 @@ ul {
 }
 
 .dot:hover {
-    background-color: #717171;
+    background-color: #ed1b24;
 }
 
 /* About Us Section */
 #about-us {
     padding: 50px 100px;
-    background-color: #f4f4f4;
+    background-color: #ed1b24;
     text-align: center;
 }
 
