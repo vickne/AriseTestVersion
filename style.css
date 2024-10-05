@@ -445,13 +445,15 @@ ul {
   bottom: 0;
 }
 .info a{
-	color:#000;
-	border:3px solid #000000;
+	color:#ed1b24;
+	border:3px solid #ed1b24;
 	padding:20px;
+	text-decoration:none;
 }
-info a:hover{
+.info a:hover{
 	background-color:#ed1b24;
 	color:#fff;
+	
 }
 /* The circles or bullets indicators */
 .dots {
