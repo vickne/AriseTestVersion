@@ -89,14 +89,19 @@
 .banner-btn a:hover span {
     width: 100%; /* Expands the background to cover the entire button on hover */
 }
-.slide-button
-    position: relative;
+mySlides .slide-button{
+    position: absolute;
     color: black;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border: azure;
-    z-index:-1;
+    /* justify-content: center; */
+    /* align-items: center; */
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: 5px solid #ffffff;
+    z-index: -1;
+    border-radius: 4px;
+    background: bisque;
+    padding: 15px;
 }
 ul {
     list-style-type: none;
