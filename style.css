@@ -89,14 +89,11 @@
 .banner-btn a:hover span {
     width: 100%; /* Expands the background to cover the entire button on hover */
 }
-mySlides .info.slide-button{
-    position: absolute;
+mySlides .info .slide-button{
+    position: relative;
     color: black;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: flex-start;
     border: 5px solid #ffffff;
     z-index: -1;
     border-radius: 4px;
