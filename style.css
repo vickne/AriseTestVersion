@@ -430,9 +430,9 @@ ul {
   font-size: 16px;
   padding: 10px 14px;
   position: absolute;
-  bottom: 10px;
+  top: 10px;
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 /* Content */
@@ -441,9 +441,12 @@ ul {
   font-size: 14px;
   padding: 10px 14px;
   position: absolute;
-  top: 0;
+  bottom: 0;
 }
-
+.info a{
+	border:3px solid #000000;
+	padding:20px;
+}
 /* The circles or bullets indicators */
 .dots {
   cursor: pointer;
