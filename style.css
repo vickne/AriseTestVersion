@@ -384,8 +384,8 @@ ul {
 
 .flip-box-front {
   background-color: #ed1b24;
-  color: black;
-  justify-content:center;
+  color: #fff;
+  text-align:center;
 }
 
 .flip-box-back {
@@ -398,7 +398,7 @@ ul {
 	margin:20px;
 }
 .flip-box-back p {
-	padding:20px;
+	padding:10px;
 }
 
 /*--service--*/
