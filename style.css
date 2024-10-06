@@ -349,6 +349,9 @@ ul {
 }
 }
 /*--Flip_Service--*/
+.service_flip{
+	display:flex;
+}
 .flip-box {
   background-color: transparent;
   width: 300px;
