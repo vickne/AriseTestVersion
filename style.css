@@ -283,7 +283,7 @@ ul {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  font-size: 30px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -307,12 +307,18 @@ ul {
   background-color: #ed1b24;
   padding: 10px;
   flex: 50%;
+  color: #f1f1f1;
+  border: 1px solid white;
+  margin: 2px;
 }
 
 .flex-item-right-two div {
   background-color: #ed1b24;
   padding: 10px;
   flex: 50%;
+  color: #f1f1f1;
+  border: 1px solid white;
+  margin: 2px;
 }
 
 @media (max-width: 800px) {
