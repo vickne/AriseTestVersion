@@ -397,6 +397,10 @@ ul {
 .flip-box-back h3{
 	margin:20px;
 }
+.flip-box-front h3{
+	position: relative;
+        top: 100;
+}
 .flip-box-back p {
 	padding:10px;
 }
