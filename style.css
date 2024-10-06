@@ -394,6 +394,13 @@ ul {
   transform: rotateX(180deg);
   justify-content:center;
 }
+.flip-box-back h3{
+	margin:20px;
+}
+.flip-box-back p {
+	padding:20px;
+}
+
 /*--service--*/
 
 #service{
