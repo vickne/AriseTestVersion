@@ -383,14 +383,16 @@ ul {
 }
 
 .flip-box-front {
-  background-color: #bbb;
+  background-color: #ed1b24;
   color: black;
+  justify-content:center;
 }
 
 .flip-box-back {
-  background-color: dodgerblue;
+  background-color: ed1b24;
   color: white;
   transform: rotateX(180deg);
+  justify-content:center;
 }
 /*--service--*/
 
