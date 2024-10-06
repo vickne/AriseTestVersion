@@ -351,6 +351,7 @@ ul {
 /*--Flip_Service--*/
 .service_flip{
 	display:flex;
+	justify-content: space-evenly;
 }
 .flip-box {
   background-color: transparent;
