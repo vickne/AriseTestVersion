@@ -339,9 +339,13 @@ ul {
 }
 
 @media (max-width: 800px) {
-  .flex-item-right, .flex-item-left,.flex-item-right-one div,.flex-item-right-two div{
+  .flex-item-right, .flex-item-left{
     flex: 100%;
+    width:100%;
   }
+	.flex-item-right-one div,.flex-item-right-two div{
+		flex:100%;
+		width:100%;
 }
 <
 /*--service--*/
