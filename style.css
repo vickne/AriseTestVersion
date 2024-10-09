@@ -271,6 +271,7 @@ ul {
 }
 	#about-us{
 		padding: 0px !important;
+		margin-top: -100px !important;
 	}
 .footer-row {
     width: 100% !important;
@@ -303,6 +304,7 @@ ul {
 }
 	#about-us{
 		padding: 0px !important;
+		margin-top: -100px !important;
 	}
 	.footer-row {
                 width: 100% !important;
