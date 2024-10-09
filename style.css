@@ -304,6 +304,9 @@ ul {
 	.topnav a{
 		display:none ! important;
 	}
+	.topnav.responsible a, .topnav .icon {
+		display:block ! important;
+	}
 }
 @media only screen and (max-width: 600px) {
  .slideshow-container img {
@@ -346,6 +349,10 @@ ul {
 	.topnav a{
 		display:none ! important;
 	}
+	.topnav.responsible a,.topnav .icon{
+		display:block ! important;
+	}
+	 
 }
 /*--about Us*/
   .flex-container .title-text p{
