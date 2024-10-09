@@ -264,7 +264,7 @@ ul {
     padding: 0 0px;
     text-align: initial;
 }
-@media screen and (max-width: 770px){
+@media screen and (max-width: 768px){
     .title-text h1{
         font-size: 35px;
     }
@@ -277,8 +277,19 @@ ul {
     .features-img img{
         width: 100%;
     }
+   .slideshow-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-
+}
+@media only screen and (max-width: 600px) {
+ .slideshow-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+}
 /*--about Us*/
   .flex-container .title-text p{
 	  margin: auto;
