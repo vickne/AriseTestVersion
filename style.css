@@ -209,19 +209,6 @@ ul {
     z-index: 1;
     display: inline-block;   
 }
-.title-text p::after{
-    content: '';
-    width: 50px;
-    height: 35px;
-    background: linear-gradient(red, #fff);
-    position: absolute;
-    top: -20px;
-    left: 0;
-    z-index: -1;
-    transform: rotate(10deg);
-    border-top-left-radius: 35px;
-    border-bottom-right-radius: 35px; 
-}
 .title-text h1{
     font-size: 40px;
 }
@@ -282,6 +269,9 @@ ul {
     height: 100%;
     object-fit: cover;
 }
+	#about-us{
+		padding: 0px;
+	}
 }
 @media only screen and (max-width: 600px) {
  .slideshow-container img {
@@ -289,6 +279,9 @@ ul {
     height: 100%;
     object-fit: cover;
 }
+	#about-us{
+		padding: 0px;
+	}
 }
 /*--about Us*/
   .flex-container .title-text p{
