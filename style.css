@@ -276,6 +276,9 @@ ul {
     width: 100% !important;
     display: flow !important;
  }
+	#contact {
+    padding: 33px 10px !important;
+   }
 }
 @media only screen and (max-width: 600px) {
  .slideshow-container img {
@@ -290,6 +293,9 @@ ul {
                 width: 100% !important;
                 display: flow !important;
     }
+	#contact {
+    padding: 33px 10px !important;
+   }
 }
 /*--about Us*/
   .flex-container .title-text p{
@@ -736,7 +742,7 @@ ul {
 }
   
   @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
+    /**.topnav a:not(:first-child) {display: none;}**/
     .topnav a.icon {
       float: right;
       display: block;
