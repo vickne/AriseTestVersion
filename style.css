@@ -276,9 +276,15 @@ ul {
     width: 100% !important;
     display: flow !important;
  }
-	#contact {
-    padding: 33px 10px !important;
+	#contact,#our-services {
+    padding: 50px 10px !important;
    }
+	.flip-box{
+	width: 100% !important;
+	}
+	.service_flip {
+         display: flow !important;
+}
 }
 @media only screen and (max-width: 600px) {
  .slideshow-container img {
@@ -293,9 +299,15 @@ ul {
                 width: 100% !important;
                 display: flow !important;
     }
-	#contact {
-    padding: 33px 10px !important;
+	#contact,#our-services {
+    padding: 50px 10px !important;
    }
+	.flip-box{
+	width: 100% !important;
+	}
+	.service_flip {
+         display: flow !important;
+}
 }
 /*--about Us*/
   .flex-container .title-text p{
