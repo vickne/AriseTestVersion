@@ -285,6 +285,15 @@ ul {
 	.service_flip {
          display: flow !important;
 }
+.info {
+    top: 120px !important;
+    left: 18% !important;
+    font-size: 9px !important;
+    padding: 0px 0px !important;
+}
+ .info a {
+    padding: 10px !important;
+}
 }
 @media only screen and (max-width: 600px) {
  .slideshow-container img {
@@ -307,6 +316,15 @@ ul {
 	}
 	.service_flip {
          display: flow !important;
+}
+	.info {
+    top: 120px !important;
+    left: 18% !important;
+    font-size: 9px !important;
+    padding: 0px 0px !important;
+}
+ .info a {
+    padding: 10px !important;
 }
 }
 /*--about Us*/
