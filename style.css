@@ -778,10 +778,10 @@ ul {
       display: block;
     }
     topnav.responsive .menu-row{
-	    margin-top: 100px;
-    	    z-index: 9999;
-            background: #fff;
-            width: 100%;
+	    margin-top: 100px !important;
+    	    z-index: 9999 !important;
+            background: #fff !important;
+            width: 100% !important;
     }
   }
   
@@ -798,10 +798,10 @@ ul {
       text-align: left;
     }
 	   topnav.responsive .menu-row{
-	    margin-top: 100px;
-    	    z-index: 9999;
-            background: #fff;
-            width: 100%;
+	    margin-top: 100px !important;
+    	    z-index: 9999 !important;
+            background: #fff !important;
+            width: 100% !important;
     }
   }
   /*dropdown*/
