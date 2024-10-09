@@ -270,7 +270,7 @@ ul {
     object-fit: cover;
 }
 	#about-us{
-		padding: 0px;
+		padding: 0px !important;
 	}
 }
 @media only screen and (max-width: 600px) {
@@ -280,7 +280,7 @@ ul {
     object-fit: cover;
 }
 	#about-us{
-		padding: 0px;
+		padding: 0px !important;
 	}
 }
 /*--about Us*/
