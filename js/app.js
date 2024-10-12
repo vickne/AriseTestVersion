@@ -1,4 +1,16 @@
 let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+let slideIndex = 1;
 showSlides();
 
 function plusSlides(n) {
@@ -22,6 +34,7 @@ function showSlides() {
   setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
 
+}
 
 function myFunction() {
   var x = document.getElementById("myTopnav");
