@@ -1038,14 +1038,14 @@ ul {
     display: inline-block;
     margin: 5px;
     padding: 10px;
-    background-color: #25D366; /* WhatsApp color */
+    background-color: #ed1b24; /* WhatsApp color */
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
 }
 
 .contact-icons .icon.call-icon {
-    background-color: #34b7f1;
+    background-color: #ed1b24;
 }
 
 .contact-icons .icon img {
