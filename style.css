@@ -377,8 +377,8 @@ ul {
 }
 /*--about Us*/
   .flex-container .title-text p{
-	  margin: auto;
-    font-size: 14px;
+    margin: auto;
+    font-size: 20px;
     color: red;
     padding: 29px;
     margin-right: 99px;
@@ -387,6 +387,9 @@ ul {
     z-index: 1;
     display: inline-block;
   }
+.flex-container .title-text p.title-text-second{
+	font-size:12px;
+}
 .flex-container {
   display: flex;
   flex-wrap: wrap;
