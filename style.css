@@ -5,7 +5,7 @@
 *{
     margin: 0;
     padding: 0; 
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif !important;
 }
 /*#banner{
     background: linear-gradient(rgba(0, 0, 0, 0.2),#f54a06),url(images/banner2.jpg);
