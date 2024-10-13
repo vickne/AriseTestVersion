@@ -503,6 +503,38 @@ ul {
   color: #fff;
   text-align:center;
 }
+.flip-box-front-left {
+	    background-size: cover;
+    box-shadow: 1px 1px 1px 1px #5BA8E8;
+    box-shadow: inset 0 0 0 2029px rgb(29 27 28 / 82%);
+    --f: .1;
+    --r: 10px;
+    --_f: calc(100%* var(--f) /(1 + var(--f)));
+    --_a: calc(90deg* var(--f));
+    width: 250px;
+    aspect-ratio: calc(1 + var(--f));
+    object-fit: cover;
+    clip-path: inset(0 var(--_f) 0 0 round var(--r));
+    transform: perspective(400px) var(--_t, rotateY(var(--_a)));
+    transition: .5s;
+    cursor: pointer;
+}
+.flip-box-front-right {
+	    background-size: cover;
+    box-shadow: 1px 1px 1px 1px #5BA8E8;
+    box-shadow: inset 0 0 0 2029px rgb(29 27 28 / 82%);
+    --f: .1;
+    --r: 10px;
+    --_f: calc(100%* var(--f) /(1 + var(--f)));
+    --_a: calc(180deg* var(--f));
+    width: 250px;
+    aspect-ratio: calc(1 + var(--f));
+    object-fit: cover;
+    clip-path: inset(0 var(--_f) 0 0 round var(--r));
+    transform: perspective(400px) var(--_t, rotateY(var(--_a)));
+    transition: .5s;
+    cursor: pointer;
+}
 .flip-box-back a{
     text-decoration: none;
     border: 2px solid #fff;
