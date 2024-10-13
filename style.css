@@ -442,7 +442,7 @@ ul {
   flex: 50%;
   color: #f1f1f1;
   border: 1px solid white;
-  margin: 2px;
+  margin: 10px;
 }
 
 .flex-item-right-two div {
@@ -451,7 +451,7 @@ ul {
   flex: 50%;
   color: #f1f1f1;
   border: 1px solid white;
-  margin: 2px;
+  margin: 65px;
 }
 
 @media (max-width: 600px) {
