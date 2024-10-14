@@ -446,6 +446,7 @@ ul {
   border: 1px solid white;
   margin: 10px;
   border-top-right-radius: 207px;
+  
 }
 .flex-item-right-one div img{
     width: 130px !important;
@@ -459,6 +460,9 @@ ul {
   border: 1px solid white;
   margin: 65px;
   border-top-right-radius: 207px;
+  font-size: 11px;
+  text-align: justify;
+  font-weight: normal;
 }
 .flex-item-right-two div img{
     width: 130px !important;
