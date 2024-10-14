@@ -400,7 +400,9 @@ ul {
     display: inline-block;
   }
 .flex-container .title-text p.title-text-second{
-	font-size:12px;
+	font-size: 11px;
+        text-align: justify;
+	font-weight: normal;
 }
 .flex-container .title-text-abt-h2 h2
   {
@@ -425,7 +427,7 @@ ul {
   border-bottom-right-radius: 200%;
   flex: 30%;
   justify-content: center;
-  align-content: center;
+  align-content: start;
 }
 
 .flex-item-right {
@@ -443,8 +445,12 @@ ul {
   color: #f1f1f1;
   border: 1px solid white;
   margin: 10px;
+  border-top-right-radius: 207px;
 }
-
+.flex-item-right-one div img{
+    width: 130px !important;
+    border-top-left-radius: 76px;
+}
 .flex-item-right-two div {
   background-color: #ed1b24;
   padding: 10px;
