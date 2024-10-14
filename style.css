@@ -458,6 +458,11 @@ ul {
   color: #f1f1f1;
   border: 1px solid white;
   margin: 65px;
+  border-top-right-radius: 207px;
+}
+.flex-item-right-two div img{
+    width: 130px !important;
+    border-top-left-radius: 76px;
 }
 
 @media (max-width: 600px) {
